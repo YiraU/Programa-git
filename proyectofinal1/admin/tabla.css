@@ -1,0 +1,46 @@
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    font-family: 'Trebuchet MS';
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Estilo para las filas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para las filas impares */
+tr:nth-child(odd) {
+    background-color: #F8F9F9;
+}
+
+/* Estilo para las celdas encabezado */
+th {
+    background-color: #ABEBC6;
+    color: #0f0e0e;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family:  Tahoma;
+}
+
+/* Estilo para las celdas de datos */
+td {
+    padding: 8px;
+    text-align: center;
+    
+}
+
+
+
+/* Estilo para las celdas cuando se pasa el mouse por encima */
+tr:hover {
+    background-color: #EAFAF1 ;
+}
+

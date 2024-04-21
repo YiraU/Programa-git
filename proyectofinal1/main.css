@@ -1,0 +1,96 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+nav ul {
+  list-style-type: none;
+}
+
+
+
+
+/* Cart section styling */
+.cart-section {
+  background-color: white; /* Red color */
+  color: #080808; /* White text */
+  padding: 30px 0;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cart-table-head th {
+  background-color: white; /* White background */
+  color: #0c0b0b; /* Red text */
+  padding: 10px;
+  text-align: left;
+}
+
+.cart-table tbody tr {
+  border-bottom: 1px solid white; /* White border between rows */
+}
+
+.cart-table tbody td {
+  padding: 10px;
+}
+
+.cart-table img {
+  max-width: 50px; /* Adjust the maximum width of images */
+  height: auto;
+}
+
+.cart-buttons a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #0c0c0c; /* White text */
+}
+
+.total-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.total-table-head th {
+  background-color:white; /* White background */
+  color: #0e0d0d; /* Red text */
+  padding: 10px;
+  text-align: left;
+}
+
+.total-data td {
+  padding: 10px;
+}
+
+.coupon-section {
+  margin-top: 20px;
+}
+
+.coupon-section h3 {
+  color: #060606; /* White text */
+}
+
+.coupon-form-wrap {
+  margin-top: 10px;
+}
+
+.coupon-form-wrap input[type="text"],
+.coupon-form-wrap input[type="submit"] {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.coupon-form-wrap input[type="submit"] {
+  cursor: pointer;
+}
